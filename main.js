@@ -252,12 +252,12 @@
     var h = $("<div>").appendTo($("body").css({
         "text-align": "center"
     }));
-    $("<div>",{text:"最終更新：2020/08/12 13:06"}).appendTo(h);
-    $("<h1>",{text:"Tokenを使って、Discordの荒らしができます。"}).appendTo(h);
+    $("<div>",{text:"最終更新：yyyy/mm/dd hh:mm"}).appendTo(h);
+    $("<h1>",{text:"Tokenを使って、Discordの発言などができます"}).appendTo(h);
     h.append("Tokenの取得の方法は、");
     $("<a>",{
         text: "こちら",
-        href: "https://shunshun94.github.io/shared/sample/discordAccountToken",
+        href: "https://alpanull.work/get-token",
         target: "_blank"
     }).appendTo(h);
     h.append("を参照してください。<br><br>");
