@@ -252,12 +252,12 @@
     var h = $("<div>").appendTo($("body").css({
         "text-align": "center"
     }));
-    $("<div>",{text:"最終更新：yyyy/mm/dd hh:mm"}).appendTo(h);
-    $("<h1>",{text:"Tokenを使って、Discordの発言などができます"}).appendTo(h);
+    $("<div>",{text:"最終更新：2021/07/31 23:52"}).appendTo(h);
+    $("<h1>",{text:"Tokenを使って、一括入出・メッセージ送信ができます。"}).appendTo(h);
     h.append("Tokenの取得の方法は、");
     $("<a>",{
         text: "こちら",
-        href: "https://alpanull.work/get-token",
+        href: "https://alphanull.work/get-token",
         target: "_blank"
     }).appendTo(h);
     h.append("を参照してください。<br><br>");
