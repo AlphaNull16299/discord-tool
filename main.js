@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    // 招待を受ける
+    //ｘ 招待を受ける
     function enter(){
         var m = input_invidedURL.val().match(/\/([a-zA-Z0-9]+)\/?$/);
         if(!m) return alert("招待リンクを設定してください。");
